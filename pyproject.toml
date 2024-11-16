@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "machine-learning"
+version = "0.1.0"
+description = "data science and machine learning project"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+dvc = "^3.56.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
